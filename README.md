@@ -1,55 +1,45 @@
-# ChatGPT Assistant
+# Assistente ChatGPT
 
-ChatGPT Assistant is an application developed using Expo and TypeScript. It serves as a basic demonstration of utilizing OpenAI's models for text generation, image generation, and speech-to-text functionalities. Users can interact with these models through the application, which is compatible with **Android**, **iOS**, and **Web** platforms.
+ChatGPT Assistant é um aplicativo desenvolvido em Expo e TypeScript. Ele serve como uma demonstração básica da utilização dos modelos OpenAI para geração de texto, geração de imagens e funcionalidades de fala para texto. Os usuários podem interagir com esses modelos por meio do aplicativo, que é compatível com as plataformas **Android**, **iOS** e **Web**.
 
-## Features
+## Características
 
-- **Text Generation:** Generate text using OpenAI's GPT models by providing prompts.
-- **Image Generation:** Generate images based on textual descriptions using OpenAI's DALL-E model.
-- **Speech-to-Text:** Convert spoken words into text using OpenAI's speech recognition model.
+- **Geração de texto:** Gere texto usando modelos GPT da OpenAI fornecendo prompts..
+- **Geração de imagem:** Gere imagens com base em descrições textuais usando o modelo DALL-E da OpenAI.
+- **Speech-to-Text:** Converta palavras faladas em texto usando o modelo de reconhecimento de fala da OpenAI.
 
-## Usage
+## Uso
 
-To use the application, follow these steps:
+Para usar o aplicativo, siga estas etapas:
 
-1. Clone the repository:
-
-```
-git clone https://github.com/falatekmen/ChatGPT-Assistant.git
-```
-
-
-2. Install dependencies:
+1. Clonar o repositório:
 
 ```
-cd ChatGPT-Assistant
+git clone https://github.com/rafaelferreira2312/assitente-chatgpt
+```
+
+
+2. Instalar dependências:
+
+```
+cd assitente-chatgpt
 npm install
 ```
 
 
-3. Start the development server:
+3. Inicie o servidor de desenvolvimento:
 
 ```
 expo start
 ```
 
 
-4. Follow the instructions to run the application on your desired platform (Android, iOS, or web).
+4. Siga as instruções para executar o aplicativo na plataforma desejada (Android, iOS ou web).
 
-## Demo Videos
+## Demonstração dos Videos
 
-Check out the demonstration videos to see ChatGPT Assistant in action:
+Confira os vídeos de demonstração para ver o ChatGPT Assistant em ação:
 
 ![0519](https://github.com/falatekmen/ChatGPT-Assistant/assets/81239267/0f9716b3-2a42-4dba-b5dc-d65faa837487)
 
 ![0519 (1)(1)](https://github.com/falatekmen/ChatGPT-Assistant/assets/81239267/5d1094a0-9367-4772-b520-a8841b0f412a)
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your changes.
-
-Please note that the Whisper model for speech-to-text functionality may not work perfectly on web platforms. Contributions to improve this feature are especially appreciated.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
